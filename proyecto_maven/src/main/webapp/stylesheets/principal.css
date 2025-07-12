@@ -1,0 +1,168 @@
+ :root {
+     --colorl1: rgba(240, 37, 37, 1);
+     --colorl2: rgba(93, 1, 36, 1);
+     --colorl3: rgba(75, 1, 29, 1);
+     --colormed: rgb(15, 3, 3);
+     --colord1: rgba(252, 211, 211, 1);
+
+ }
+
+ /* Full-screen video background */
+ .video-container {
+     position: relative;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100vh;
+     overflow: hidden;
+     z-index: -1;
+ }
+
+ body {
+     min-height: 200vh;
+     background-color: var(--colormed);
+ }
+
+ #company-description {
+     text-align: center;
+     position: relative;
+     z-index: 2;
+     padding: 40px;
+     background: black;
+     border-radius: 15px;
+     max-width: 80%;
+     margin: auto;
+     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+ }
+
+ #company-description h2 {
+     color: var(--colorl1);
+ }
+
+ #company-description p {
+     color: var(--colord1);
+     font-size: larger;
+ }
+
+ .image-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     margin-top: 20px;
+ }
+
+ .image-container img {
+     max-width: 100%;
+     height: auto;
+     object-fit: contain;
+ }
+
+ .video-container video {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     width: auto;
+     height: auto;
+     min-width: 100vw;
+     min-height: 100vh;
+     object-fit: cover;
+ }
+
+ /* Centered header text */
+ .header-text {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     color: var(--colorl1);
+     text-align: center;
+     font-size: 3rem;
+     font-weight: bold;
+     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+ }
+
+
+ /* Floating navigation dock */
+ .nav-dock {
+     position: fixed;
+     top: 20px;
+     left: 50%;
+     transform: translateX(-50%);
+     padding: 10px 20px;
+     border-radius: 50px;
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+     display: flex;
+     gap: 15px;
+     overflow-x: auto;
+     /* Make it scrollable horizontally */
+     white-space: nowrap;
+     /* Prevent wrapping */
+     max-width: 100%;
+     /* Ensure it doesn't overflow */
+     z-index: 3;
+     backdrop-filter: blur(10px);
+     background: rgba(0, 0, 0, 0.8);
+ }
+
+ .nav-dock a {
+     text-decoration: none;
+     color: var(--colorl1);
+     font-weight: bold;
+     padding: 10px 15px;
+     border-radius: 30px;
+     transition: 0.3s;
+ }
+
+
+ .nav-dock a:hover {
+     background: var(--colord1);
+ }
+
+
+ /* Footer styling */
+ mi-pie {
+     position: fixed;
+     bottom: 0;
+     width: 100%;
+     background: rgba(0, 0, 0, 0.7);
+     color: var(--colorl1);
+     text-align: center;
+     padding: 10px 0;
+     font-size: 1rem;
+     z-index: 2;
+ }
+
+ .footer-content {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     max-width: 1200px;
+     margin: 0 auto;
+ }
+
+ .footer-content p {
+     margin: 0;
+ }
+
+ .social-icons {
+     display: flex;
+     gap: 15px;
+ }
+
+ .social-icons img {
+     width: 24px;
+     height: 24px;
+ }
+
+ .hidden {
+     opacity: 0;
+     transform: translateY(50px);
+     transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+ }
+
+ .visible {
+     opacity: 1;
+     transform: translateY(0);
+ }

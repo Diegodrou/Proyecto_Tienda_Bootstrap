@@ -1,0 +1,235 @@
+:root {
+    --colorl1: rgba(240, 37, 37, 1);
+    --colorl2: rgba(93, 1, 36, 1);
+    --colorl3: rgba(75, 1, 29, 1);
+    --colormed: rgb(15, 3, 3);
+    --colord1: rgba(252, 211, 211, 1);
+
+}
+
+body {
+    margin-top: 100px;
+    background-color: var(--colormed);
+    /* Background color for the page */
+}
+
+/* Floating navigation dock */
+.nav-dock {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 20px;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    /* Make it scrollable horizontally */
+    white-space: nowrap;
+    /* Prevent wrapping */
+    max-width: 100%;
+    /* Ensure it doesn't overflow */
+    backdrop-filter: blur(10px);
+}
+
+.nav-dock a {
+    text-decoration: none;
+    color: var(--colorl1);
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.nav-dock a:hover {
+    background: var(--colord1);
+}
+
+.container {
+    max-width: 800px;
+}
+
+.card {
+    border: 2px solid red;
+    /* Red outline around the contact card */
+    border-radius: 10px;
+    /* Rounded corners */
+}
+
+.card-body {
+    padding: 30px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--colorl1);
+    /* Red color for title */
+}
+
+label {
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+textarea {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid var(--colorl3);
+    /* Border color matching the theme */
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    background-color: var(--colorl1);
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: var(--colorl2);
+    /* Darker red on hover */
+}
+
+button:active {
+    background-color: var(--colormed);
+    /* Lighter red on active */
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin: 20px;
+    }
+
+    .card {
+        padding: 15px;
+    }
+}
+
+
+
+
+.container {
+    max-width: 800px;
+}
+
+.card {
+    border: 2px solid red;
+    /* Red outline around the contact card */
+    border-radius: 10px;
+    /* Rounded corners */
+    background-color: black;
+}
+
+.card-body {
+    padding: 30px;
+
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--colorl1);
+    /* Red color for title */
+}
+
+label {
+    font-weight: bold;
+    color: var(--colorl1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+textarea {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid var(--colorl3);
+    /* Border color matching the theme */
+}
+
+textarea {
+    resize: none;
+}
+
+.btn {
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+    background-color: var(--colorl1);
+    color: var(--colord1);
+    font-weight: bold;
+    border-color: var(--colorl3);
+}
+
+.btn:hover {
+    background-color: var(--colord1);
+    color: var(--colorl1);
+    font-weight: bold;
+    border-color: var(--colorl3);
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        margin: 20px;
+    }
+
+    .card {
+        padding: 15px;
+    }
+}
+
+/* Footer styling */
+mi-pie {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    color: var(--colorl1);
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}

@@ -1,0 +1,138 @@
+:root {
+    --colorl1: rgba(240, 37, 37, 1);
+    --colorl2: rgba(93, 1, 36, 1);
+    --colorl3: rgba(75, 1, 29, 1);
+    --colormed: rgb(15, 3, 3);
+    --colord1: rgba(252, 211, 211, 1);
+
+}
+
+body {
+    background-color: var(--colormed);
+}
+
+.container p {
+    color: var(--colord1);
+    font-weight: bold;
+}
+
+h1{
+    color: var(--colorl1);
+    text-align: center;
+}
+
+
+h2 {
+    color: var(--colorl1);
+    font-size: 2rem;
+}
+
+h4 {
+    color: var(--colorl1);
+}
+
+form {
+    background-color: black;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+    color: var(--colorl1);
+}
+
+.btn-primary {
+    background-color: var(--colorl1);
+    color: var(--colord1);
+    border-color: var(--colorl1);
+}
+
+.btn-primary:hover {
+    background-color: var(--colord1);
+    color: var(--colorl1);
+    border-color: var(--colord1);
+}
+
+.btn-primary:active {
+    background-color: var(--colord1) !important;
+    border-color: var(--colord1) !important;
+    color: var(--colorl1) !important;
+}
+
+button {
+    font-size: 1.1rem;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.pedido {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.pedido h5 {
+    margin-bottom: 10px;
+}
+
+.pedido button {
+    font-size: 1rem;
+    padding: 8px 20px;
+}
+
+
+.pedido-container h3 {
+    color: var(--colorl1);
+}
+
+.pedido-container {
+    background-color: black;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.pedido-container table,
+.pedido-container th,
+.pedido-container table thead,
+.pedido-container table tbody,
+.pedido-container table tr,
+.pedido-container table td {
+    background-color: black !important;
+    color: var(--colorl1);
+    /* Ensure text is readable */
+}
+
+.verdbtn {
+    color: white;
+    background-color: var(--colorl1);
+    border-color: var(--colorl1)
+}
+
+.verdbtn:hover {
+    background-color: var(--colord1);
+    border-color: var(--colord1);
+    color: var(--colorl1);
+}
+
+.verdbtn:active {
+    background-color: var(--colord1) !important;
+    border-color: var(--colord1) !important;
+    color: var(--colorl1) !important;
+}
+
+.badge-pendiente { background-color: #ffc107; color: #000; }
+.badge-enviado { background-color: #17a2b8; color: #fff; }
+.badge-entregado { background-color: #28a745; color: #fff; }
+.badge-cancelado { background-color: #dc3545; color: #fff; }
+.productos-list {
+            max-height: 120px;
+            overflow-y: auto;
+}
+.producto-item {
+            padding: 3px 0;
+            border-bottom: 1px solid #eee;
+}
