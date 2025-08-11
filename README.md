@@ -1,9 +1,12 @@
-<h1>About Project<h1>
+<h1>About Project</h1>
 
-<h2>Stack<h2>
-<h3>Web Server: Apache Tomcat</h3>
-<h3>Buil autOmation tool: Apache Maven </h3>
-<h3>Data Base: MariaDB</h3>
-<h3>Front-end Framework: Bootstrap </h3>
+<h2>Stack</h2>
+<ul>
+  <li>Web Server: Apache Tomcat</li>
+  <li>Build Automation Tool: Apache Maven</li>
+  <li>Database: MariaDB</li>
+  <li>Front-end Framework: Bootstrap</li>
+</ul>
 
-<h2>Setup<h2>
+<h2>Setup</h2>
+
