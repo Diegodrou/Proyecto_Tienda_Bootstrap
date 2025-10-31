@@ -95,10 +95,6 @@ Before running the project, make sure you have installed:
 
 ![Shopping Cart Screenshot](https://via.placeholder.com/900x500.png?text=Shopping+Cart)
 
-### 🔐 Admin Dashboard
-
-![Admin Dashboard Screenshot](https://via.placeholder.com/900x500.png?text=Admin+Dashboard)
-
 ---
 
 ## 🧠 Learnings
