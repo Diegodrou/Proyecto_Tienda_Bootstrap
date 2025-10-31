@@ -4,7 +4,7 @@
 target/
 
 # Ignore all images in img folder
-img/*
+src/webapp/img/*
 
 # Keep the img folder itself and .gitkeep
 !img/
