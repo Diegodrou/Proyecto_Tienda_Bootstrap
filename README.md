@@ -43,7 +43,7 @@ This project was developed as part of a web development course focused on buildi
 
 ---
 
-## 🚀 Installation & Setup
+## 🚀 Installation & Setup (Main site)
 
 ### 1. Prerequisites
 
@@ -53,7 +53,6 @@ Before running the project, make sure you have installed:
 * 🐱 **Apache Tomcat 10.1.x**
 * ⚙️ **Maven 3.9+**
 * 🐬 **MariaDB Server**
-* 🧩 **PHP 8+**
 * 💻 **Visual Studio Code** (recommended extensions: *Community Server Connectors*, *PHP Server*, *MySQL/MariaDB*)
 
 ### 2. Database Setup
