@@ -85,7 +85,7 @@ Before running the project, make sure you have installed:
 
 ### 🏠 Home Page
 
-![Home Page Screenshot](https://via.placeholder.com/900x500.png?text=Home+Page)
+![Home Page gif](/demofiles/home.gif)
 
 ### 💿 Product Catalog
 
