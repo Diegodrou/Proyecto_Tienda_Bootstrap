@@ -1,1 +1,18 @@
 /.vscode
+
+# Ignore build output
+target/
+
+# Ignore all images in img folder
+img/*
+
+# Keep the img folder itself and .gitkeep
+!img/
+!img/.gitkeep
+
+# Keep specific icons (MUST come after the general ignore patterns)
+!img/twitter-icon.png
+!img/tiktok-icon.png
+!img/imagen-vinilo.jpeg
+!img/instagram-icon.png
+!img/logo.png
