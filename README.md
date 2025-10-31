@@ -78,7 +78,6 @@ Before running the project, make sure you have installed:
 * ✅ Contact form
 * ✅ Product catalog with “Add to Cart” feature
 * ✅ Secure login and registration system
-* ✅ Admin panel with **CRUD operations** for products, users, and orders
 
 ---
 
