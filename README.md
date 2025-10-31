@@ -75,7 +75,7 @@ Before running the project, make sure you have installed:
 
 * ✅ Fully responsive design with **Bootstrap 5**
 * ✅ Carousel, product galleries, and dynamic navigation
-* ✅ Contact form and embedded **Google Maps**
+* ✅ Contact form
 * ✅ Product catalog with “Add to Cart” feature
 * ✅ Secure login and registration system
 * ✅ Admin panel with **CRUD operations** for products, users, and orders
