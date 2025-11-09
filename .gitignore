@@ -3,6 +3,7 @@ proyecto_maven/target/
 
 # Ignorar todas las imágenes por defecto
 proyecto_maven/src/main/webapp/img/*
+proyecto_maven/src/main/webapp/vids/*
 
 # Excepciones
 !proyecto_maven/src/main/webapp/img/.gitkeep
