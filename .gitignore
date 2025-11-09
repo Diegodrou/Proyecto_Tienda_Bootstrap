@@ -1,16 +1,13 @@
-/.vscode
+.vscode
 proyecto_maven/target/
 
-# Ignore all images in the actual location
-proyecto_maven/src/webapp/img/*
+# Ignorar todas las imágenes por defecto
+proyecto_maven/src/main/webapp/img/*
 
-# Keep the folder and .gitkeep
-!proyecto_maven/src/webapp/img/
-!proyecto_maven/src/webapp/img/.gitkeep
-
-# Keep specific icons
-!proyecto_maven/src/webapp/img/twitter-icon.png
-!proyecto_maven/src/webapp/img/tiktok-icon.png
-!proyecto_maven/src/webapp/img/imagen-vinilo.jpeg
-!proyecto_maven/src/webapp/img/instagram-icon.png
-!proyecto_maven/src/webapp/img/logo.png
+# Excepciones
+!proyecto_maven/src/main/webapp/img/.gitkeep
+!proyecto_maven/src/main/webapp/img/twitter-icon.png
+!proyecto_maven/src/main/webapp/img/tiktok-icon.png
+!proyecto_maven/src/main/webapp/img/imagen-vinilo.jpeg
+!proyecto_maven/src/main/webapp/img/instagram-icon.png
+!proyecto_maven/src/main/webapp/img/logo.png
