@@ -96,6 +96,17 @@ Before running the project, make sure you have installed:
 ![Shopping Cart Screenshot](/demofiles/Car.gif)
 
 ---
+⚠️ Media Assets Notice
+
+Please note: For copyright reasons, the following media assets are not included in this repository:
+
+    Album cover images used in the product catalog
+
+    Homepage background video featured on the main site
+
+These proprietary assets have been removed to respect intellectual property rights. You will need to provide your own images and videos for these elements when running the application locally.
+
+---
 
 ## 🧠 Learnings
 
