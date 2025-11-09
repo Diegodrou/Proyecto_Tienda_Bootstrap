@@ -64,11 +64,30 @@ Before running the project, make sure you have installed:
 ### 3. Running the Applications
 
 * **Main Website (Java + Tomcat)**
-  ```bash
-  mvn clean package
-  # Deploy to Tomcat
-  http://localhost:8080/proyecto_maven (find the the url in the pom.xml file)
-  ```
+
+  1. **Compile the project:**
+     ```bash
+     mvn compile -f "path_to_pomxml_file.xml"
+     ```
+
+  2. **Package the application:**
+     ```bash
+     mvn package -f "path_to_pomxml_file.xml"
+     ```
+
+  3. **Deploy the WAR file:**
+     - The previous command will create a `.war` file in the `target` folder
+     - Deploy the WAR file to your Apache Tomcat server using one of these methods:
+       - **VS Code**: Right-click on the `.war` file and select "Run on Server"
+       - **Tomcat Manager**: Upload through the Tomcat web manager interface
+       - **Manual deployment**: Copy the WAR file to Tomcat's `webapps` directory
+
+  4. **Access the application:**
+     ```
+     http://localhost:8080/your-app-name
+     ```
+     (Check your `pom.xml` file for the specific application context path)
+
 ---
 
 ## 🎨 Features
