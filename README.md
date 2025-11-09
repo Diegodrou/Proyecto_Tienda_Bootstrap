@@ -89,11 +89,11 @@ Before running the project, make sure you have installed:
 
 ### 💿 Product Catalog
 
-![Product Catalog Screenshot](https://via.placeholder.com/900x500.png?text=Product+Catalog)
+![Product Catalog Screenshot](/demofiles/catalog.gif)
 
 ### 🛒 Shopping Cart
 
-![Shopping Cart Screenshot](https://via.placeholder.com/900x500.png?text=Shopping+Cart)
+![Shopping Cart Screenshot](/demofiles/Car.gif)
 
 ---
 
