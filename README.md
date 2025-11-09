@@ -27,7 +27,7 @@ This project was developed as part of a web development course focused on buildi
 * Manage users (activation, modification, deletion)
 * Add, edit, and remove vinyl records from the catalog
 * View and manage customer orders
-* Link to that project's GitHub:
+* Link to that project's GitHub: https://github.com/Diegodrou/proyecto_tienda_admin_php
 
 ---
 
